@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,400&display=swap');
+
+body {
+  background-color:#C4EDDE;
+  font-family: 'DM Sans', sans-serif;
+  color: #384259;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+h1{
+  font-size: 2.618em
+}
+
+h2{
+  font-size: 1.618em
+
+}
+
+h3{
+  font-size: 1.618em
+}
+
+a {
+    color:#F73859;
+    text-decoration: none;
+}
+
+#profile-img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: #f3f8f6 ;
+  box-shadow: 0.4em 0.4em 1em #38425922;;
+  padding: 1em;
+  border-radius: 8px;
+  border: 1px solid lightgrey;
+  margin: 1em auto ;
+
+}
+
+.card-no-link {
+  margin: 3em auto ;
+  box-shadow: none;
+}
+
+.text-card{
+line-height: 1;}
+
+.card:hover {
+  box-shadow: 0.1em 0.1em 1em #38425922;
+  color: #384259;
+}
+.card-no-link:hover {
+  box-shadow: none;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+i {
+  font-size: 1.5em;
+}
+
+.container {
+  margin: 1em auto ;
+}
+
+@media (min-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
